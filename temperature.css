@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Updated font family */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fcfcfc; /* Light Grayish White */
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 28px; /* Increased font size */
+    color: #1a1a1a; /* Dark Gray */
+}
+
+.units {
+    display: flex;
+    justify-content: center;
+}
+
+.panel {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #ffffff; /* White */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.bg-unit {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #ff8c00; /* Dark Orange */
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 20px; /* Increased font size */
+    color: #333; /* Slightly Dark Gray */
+}
+
+input {
+    width: 150px;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: 2px solid #bbb; /* Light Gray */
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Hover effect on input fields */
+input:hover,
+input:focus {
+    border-color: #ff8c00; /* Dark Orange */
+}
